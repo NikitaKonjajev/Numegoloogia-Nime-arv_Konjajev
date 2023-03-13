@@ -7,4 +7,9 @@ print("Расшифровка имени:")
 for c in name_values:
     print(f"{c}: {name_values[c]}")
    
-filename=str(name_number) +".txt"
+filename = str(name_number) + ".txt"
+with open(filename, 'r', encoding="utf-8-sig") as file:
+    contents = loe_failist(filename)
+    print(contents)
+
+   
