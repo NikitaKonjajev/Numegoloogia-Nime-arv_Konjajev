@@ -1,4 +1,4 @@
-﻿def calculate_name_number(name):
+def calculate_name_number(name):
     with open('russian_alphabet.txt', 'r', encoding='utf-8') as f:
         russian_alphabet = dict(line.strip().split() for line in f)
     with open('latin_alphabet.txt', 'r', encoding='utf-8') as f:
@@ -16,7 +16,7 @@
     name_number = sum(name_values.values())
     while name_number > 9:
         name_number = sum(int(d) for d in str(name_number))
-    return name_number, name_values
+    return name_number
 
 def loe_failist(filename):
     with open(filename, 'r', encoding="utf-8-sig") as file:
