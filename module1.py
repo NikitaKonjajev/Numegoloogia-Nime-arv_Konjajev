@@ -17,4 +17,6 @@
     while name_number > 9:
         name_number = sum(int(d) for d in str(name_number))
     return name_number, name_values
-
+def abg(name_number):
+    filename=str(name_number) +".txt"
+    print(filename)

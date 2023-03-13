@@ -27,6 +27,7 @@
   <ItemGroup>
     <Content Include="russian_alphabet.txt" />
     <Content Include="latin_alphabet.txt" />
+    <Content Include="1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

@@ -6,4 +6,5 @@ print(f"Число вашего имени: {name_number}")
 print("Расшифровка имени:")
 for c in name_values:
     print(f"{c}: {name_values[c]}")
-    
+   
+filename=str(name_number) +".txt"
